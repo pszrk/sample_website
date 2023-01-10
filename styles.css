@@ -58,8 +58,19 @@ body {
     flex:1;
 }
 
+.herobuttoncontainer{
+    flex: 1;
+    padding-top: 2%;
+}
+
 .herobutton {
-    flex:1;
+    background-color: #3882F6;
+    border:none;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 30px;
 }
 
 .infosection {
