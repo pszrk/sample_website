@@ -2,11 +2,11 @@ body {
     margin: 0px;
 }
 
-.container {
+.maincontainer {
     font-family: sans-serif;
 }
 
-.one {
+.header {
     display:flex;
     justify-content: space-between;
     background: #1F2937;
@@ -20,7 +20,7 @@ body {
     
 }
 
-.two {
+.hero {
     display:flex;
     padding-left: 20%;
     padding-right: 20%;
@@ -31,13 +31,13 @@ body {
     gap: 8%;
 }
 
-.twoleft {
+.heroleft {
     flex:1 ;
     display: flex;
     flex-direction: column;
 }
 
-.tworight {
+.heroright {
     display: flex;
     flex:1 ;
     background: gray;
@@ -62,7 +62,7 @@ body {
     flex:1;
 }
 
-.three {
+.infosection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@ body {
     height:200px;
 }
 
-.four {
+.quotesection {
     padding-left: 20%;
     padding-right: 20%;
     background: #E5E7EB;
@@ -113,7 +113,7 @@ body {
     padding-bottom: 10%;
 }
 
-.five {
+.actionsection {
     display: flex;
     justify-content: center;
     padding-left: 20%;
