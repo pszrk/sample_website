@@ -63,8 +63,37 @@ body {
 }
 
 .three {
-    padding-left: 20%;
-    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoheader {
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.infoimagescontainer {
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+}
+
+.sqimg {
+  border: 3px solid #3882F6;
+  border-radius: 15%;
+  flex:1;
+  width: 200px;
+  height:200px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 18px;
+    width: 200px;
+    height:200px;
 }
 
 .four {
