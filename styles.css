@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    font-family: sans-serif;
+}
+
+.one {
+    display:flex;
+    justify-content: space-between;
+    background: #1F2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
+
+.headerlogo {
+    font-size: 24px;
+    
+}
+
+.two {
+    display:flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    background: #1F2937;
+    color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    gap: 8%;
+}
+
+.twoleft {
+    flex:1 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.tworight {
+    display: flex;
+    flex:1 ;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    flex:1;
+}
+
+.herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex:1;
+}
+
+.herobutton {
+    flex:1;
+}
+
+.three {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.four {
+    padding-left: 20%;
+    padding-right: 20%;
+    background: #E5E7EB;
+}
+
+.five {
+    padding-left: 20%;
+    padding-right: 20%;
+}
